@@ -1,0 +1,109 @@
+body{
+  background-color:#CCCCCC;
+}
+header{
+  background-color:#CCCCCC;
+  border-bottom: solid 3px #666666;
+}
+
+header button {  
+  padding: 20px;
+  margin: 5px;
+  font-size:20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+header #status {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #99CCFF;
+}
+
+
+#status #online:hover,
+#status #offline:hover, 
+#status #all:hover {
+  padding: 20px;
+  margin-right: 5px;
+  background-color:white;
+  font-size:20px;
+  font-weight: bold;
+  
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+section#result{
+  background-color:#CCCCCC;
+  width:100%; 
+}
+
+#result .container{
+  width: 80%;
+  background-color: #003366;
+}
+
+#result .card{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  border: solid black 3px;
+}
+
+.card .img {
+  width:10%;
+  box-sizing: border-box;
+  float: left;
+  margin: 5px 0;
+}
+
+.img img{
+  width: 100%;
+  height: 100%;
+}
+
+.card .name{
+  width: 90%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+
+
+
+
+
+#online {
+  background-color: lightGreen;
+}
+#offline {
+  background-color: lightBlue;
+}
+
+
+
+
+
+
+
+
+#online{
+  background-color: greenyellow;
+}
+#offline{
+  background-color: dodgerBlue;
+}
+#all{
+  background-color: hotpink;
+}
+
+
+
+
